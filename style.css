@@ -1,0 +1,16 @@
+/* Estoy seleccionando la etiqueta BODY para aplicarle estilos */
+body {
+	background: #abbdce;
+	/* La propiedad background sirve para establecer un fondo */
+	color: #515f6c;
+	/* La propiedad color cambia el color del texto */
+	font-family: Arial, Helvetica, sans-serif;
+	/* La propiedad font-family sirve para especificar el tipo de fuente a usar */
+	text-shadow: 0 1px 1px #d5dde6;
+	/* La propiedad text shadow sirve para aplicar sombras al texto. El primer valor es el desplazamiento hacia los lados, el segundo es el desplazamiento hacia arriba o abajo, el tercero es el difuminado y el cuarto es el color de la sombra */
+}
+/* Estoy seleccionando la etiqueta A */
+a {
+	text-decoration: none;
+	/* La propiedad text-decoration sirve para colocar o eliminar decoration de un link */
+}
