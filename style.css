@@ -1,6 +1,6 @@
 /* Estoy seleccionando la etiqueta BODY para aplicarle estilos */
 body {
-	background: #abbdce;
+	background: #ccc;
 	/* La propiedad background sirve para establecer un fondo */
 	color: #515f6c;
 	/* La propiedad color cambia el color del texto */
@@ -36,4 +36,18 @@ nav {
 	}
 aside {
 	color: #000;
+}
+/* Los estilos aplicables a clases se colocan con un punto. Las clases distinguen grupos */
+.programacion {
+	background: #f00;
+}
+.diseno {
+	background: #0f0;
+}
+/* Los estilos aplicables a IDs se colocan con un #. Los IDs distinguen individuos */
+#anita {
+	font-size: 40px;
+}
+#paco {
+	font-weight: bold;
 }
