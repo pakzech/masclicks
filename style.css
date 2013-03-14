@@ -5,10 +5,11 @@ body {
 	color: #515f6c;
 	/* La propiedad color cambia el color del texto */
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
 	/* La propiedad font-family sirve para especificar el tipo de fuente a usar */
 	margin: 0;
 	/* La propiedad margin establece el margen de un elemento */
-	text-shadow: 0 1px 1px #d5dde6;
+	text-shadow: 0 6px 1px #d5dde6;
 	/* La propiedad text shadow sirve para aplicar sombras al texto. El primer valor es el desplazamiento hacia los lados, el segundo es el desplazamiento hacia arriba o abajo, el tercero es el difuminado y el cuarto es el color de la sombra */
 }
 /* Estoy seleccionando la etiqueta A */
@@ -31,8 +32,14 @@ nav {
 }
 	nav a {
 		/* Estoy seleccionando todos los A dentro de NAV */
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 15px 20px 0 10px;
+		/*
+		En propiedades shorthand de margen, padding y border lo valores funcionan así:
+		* Un sólo valor aplica pára todo
+		* Dos valores son arriba y abajo / izquierda y derecha
+		* Tres valores son arriba / izquierda y derecha / abajo
+		* Cuatro valores son arriba / derecha / abajo / izquierda
+		*/
 	}
 aside {
 	color: #000;
@@ -43,11 +50,26 @@ aside {
 }
 .diseno {
 	background: #0f0;
+	border: solid 5px #000;
+	padding: 30px;
+	text-align: center;
+}
+.masclickero {
+	font: oblique bold 40px/80px times;
+	/*
+	En propiedades shorthand para fuentes el orden es el siguiente:
+	* font-style (itálicas)
+	* font-weight: (negritas)
+	* font-size: (tamaño)
+	* line-height: (alto de la línea)
+	* font-family: (tipografía)
+	La propiedad shorthand requiere mínimo tamaño y tipo
+	*/
 }
 /* Los estilos aplicables a IDs se colocan con un #. Los IDs distinguen individuos */
 #anita {
 	font-size: 40px;
 }
-#paco {
+.paco {
 	font-weight: bold;
 }
