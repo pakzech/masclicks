@@ -1,6 +1,6 @@
 /* Estoy seleccionando la etiqueta BODY para aplicarle estilos */
 body {
-	background: #ccc;
+	background: #ccc url('img/que-es-esto.jpg') no-repeat bottom center;
 	/* La propiedad background sirve para establecer un fondo */
 	color: #515f6c;
 	/* La propiedad color cambia el color del texto */
@@ -55,7 +55,7 @@ aside {
 	text-align: center;
 }
 .masclickero {
-	font: oblique bold 40px/80px times;
+	font: oblique bold 4em/80px times;
 	/*
 	En propiedades shorthand para fuentes el orden es el siguiente:
 	* font-style (itálicas)
