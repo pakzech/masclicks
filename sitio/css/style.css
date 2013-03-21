@@ -1,18 +1,29 @@
 html {
-	background: #b8b8b8;
+	background: #ddd;
 }
 body {
-	background: #f2f2f2;
-		background: -moz-linear-gradient(top,  #f2f2f2 0%, #e0e0e0 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#e0e0e0));
-		background: -webkit-linear-gradient(top,  #f2f2f2 0%,#e0e0e0 100%);
-		background: -o-linear-gradient(top,  #f2f2f2 0%,#e0e0e0 100%);
-		background: -ms-linear-gradient(top,  #f2f2f2 0%,#e0e0e0 100%);
-		background: linear-gradient(to bottom,  #f2f2f2 0%,#e0e0e0 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e0e0e0',GradientType=0 );
+	background: #eee;
 	border: solid 1px #fff;
 	border-radius: 0.4em;
-	box-shadow: 0 0 0.5em rgba(0, 0, 0, .4);
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, .4),
+				inset 0 3em 3em #fff;
 	padding: 2em;
 	margin: 2em;
 }
+header {
+	overflow: hidden;
+}
+nav {
+	float: right;
+}
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+		nav ul ul {
+			display: none;
+		}
+	nav li {
+		display: inline-block;
+	}
